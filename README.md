@@ -26,7 +26,8 @@ We learn today how to classify dogs from cats. Rather than understanding the mat
 
 The dataset is strucuted in the following format:
 
-```dataset/
+```
+dataset/
             train/
                   cat0.jpg
                   dog1.jpg

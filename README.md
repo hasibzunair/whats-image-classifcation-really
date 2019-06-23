@@ -28,15 +28,5 @@ The dataset is strucuted in the following format:
 
 ```
 dataset/
-            train/
-                  cat0.jpg
-                  dog1.jpg
-                  cat23.jpg
-                  ....
-                  
-            test/
-                  cat34.jpg
-                  dog14.jpg
-                  cat56.jpg
-                  ....       
+  
 ```

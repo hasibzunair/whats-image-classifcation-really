@@ -1,4 +1,5 @@
 dataset/
+exp/
 .ipynb_checkpoints/
 *.h5
 *.npy

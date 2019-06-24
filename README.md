@@ -43,8 +43,8 @@ pip install opencv-python
 #### Project directory structure
 
 The project is strucuted in the following format:
-
 ```
+# create a folder named dataset and add the numpy arrays that you downloaded from the above link
 dataset/
         # training data
         x_train.npy

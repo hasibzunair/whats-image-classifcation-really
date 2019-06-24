@@ -21,12 +21,39 @@ and train your first image classification model (a convolutional neural network,
 
 We learn today how to classify bengali handwritten digits. Rather than understanding the mathematical details of how this works, we start by learning the nuts and bolts of how to get the computer to complete the task. We will also cover aspect of deep learning such as transfer learning and also use a technique called ‘fine-tuning’ using pre-trained networks, perhaps the most important skill for any deep learning practitioner
 
+### Environment setup
 
-#### Dataset structure
+After installing Anaconda, create separate environment for this project
+Run the following commands:
 
-The dataset is strucuted in the following format:
+``` 
+conda create -n insb python=3.6 anaconda
+conda activate insb
+```
+
+Now install the following packages
+
+```
+pip install tensorflow
+pip install keras
+pip install opencv-python
+```
+
+
+#### Project directory structure
+
+The project is strucuted in the following format:
 
 ```
 dataset/
-  
+        # training data
+        x_train.npy
+        y_train.npy
+        
+        # validation data
+        x_val.npy
+        y_val.npy
+
+environment_test_notebook.ipynb
+numta_1_workshop.ipynb
 ```

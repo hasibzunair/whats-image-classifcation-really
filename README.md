@@ -37,6 +37,7 @@ Now install the following packages
 pip install tensorflow
 pip install keras
 pip install opencv-python
+pip install imgaug
 ```
 
 
@@ -55,5 +56,6 @@ dataset/
         y_val.npy
 
 environment_test_notebook.ipynb
-numta_1_workshop.ipynb
+workshop_1.ipynb
+workshop_2.ipynb
 ```
